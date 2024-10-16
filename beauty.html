@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheBeautyofMyQueen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1 class="lg">Love Gallery</h1>
+        <div class="image-container">
+            <h1>My Beautiful Queen Zumi</h1>
+            <img src="images/kmngf4.jpg" alt="love" height="400px" width="400px" >
+        </div>
+    </section>
+
+    <section>
+
+        <div class="paragraph-b">
+            <h2>
+                သဘာဝနဲ့အလှဆိုတာ မင်းနဲ့မှဖြစ်တည်လာတာမျိုး
+            </h2>
+        </div>
+    </section>
+
+    <section>
+        <div class="image-container-1">
+            <h1>My Sweet Love</h1>
+            <img src="images/kmngf2.jpg" alt="love" height="400px" width="400px" >
+        </div>
+    </section>
+
+    <section>
+
+        <div class="paragraph-c">
+            <h2>
+                အကြည်ဓာတ်လေးနဲ့ မျက်ဝန်းတစ်စုံ
+                နှုတ်ခမ်းပါးအောက်က အပြုံးဟာ ထာဝရလှပနေမှာပါ
+            </h2>
+        </div>
+    </section>
+
+    <section>
+        <div class="image-container-2">
+            <h1>Love out of an Anime</h1>
+            <img src="images/kmngf3.jpg" alt="love" height="500px" width="400px" >
+        </div>
+    </section>
+
+    <section>
+
+        <div class="paragraph-d">
+            <h2>
+                Anime ထဲကနတ်သမီးတစ်ပါး
+            </h2>
+        </div>
+    </section>
+
+    <section>
+        <div class="image-container-2">
+            <h1>ACE 0 - 2 Zumi</h1>
+            <img src="images/kmngf.jpg" alt="love" height="500px" width="400px" >
+        </div>
+    </section>
+
+
+    <section>
+
+        <div class="paragraph-d">
+            <h2>
+                Zumi ရဲ့ အပြုံးတစ်ပွင့်ကို ရင်ဆိုင်လိုက်ရတဲ့အခါ 
+                ကျွန်တော့် Dream ထဲမှာ Zumi ပါဝင်ရောက်လာခဲ့တယ်🫶   
+            </h2>
+        </div>
+        </section>
+
+        <section>
+            <div class="image-container-2">
+                <h1>Fantastic</h1>
+                <img src="images/kmngf5.jpg" alt="love" height="500px" width="400px" >
+            </div>
+        </section>
+
+        <section>
+        <div class="paragraph-d">
+            <h2>
+                ပြီးပြည့်စုံတဲ့အလှတရားနဲ့သဘာဝနဲ့ပေါင်းစပ်မှု  
+            </h2>
+        </div>
+        </section>
+        
+        
+    </section>
+
+    <div class="container">
+        <div class="box collapsed" id="surpriseBox">
+            <div class="content">
+                <h2>My Secret Love🤍</h2>
+                <p>October 8ရက် ပထမဆုံးတွေ့တဲ့ရက်ထဲက သဘောကြမိခဲ့တယ် သဘောကြမိတဲ့လူတစ်ယောက်ရဲ့ပုံကို ပျက်မှာဆိုးလို cloud ပေါ်တင်ထားတယ်လိုပြောရင် မင်းယုံမှာလား</p>
+            </div>
+        </div>
+        <button id="toggleButton">Secret 🤍 Message</button>
+    </div>
+
+    <script>
+        const surpriseBox = document.getElementById('surpriseBox');
+const toggleButton = document.getElementById('toggleButton');
+
+let isOpen = false;
+
+toggleButton.addEventListener('click', () => {
+    isOpen = !isOpen;
+    surpriseBox.classList.toggle('collapsed', !isOpen);
+    toggleButton.textContent = isOpen ? '🤍' : 'Secret 🤍 Message';
+});
+    </script>
+
+
+    <section>
+        <div class="button-container2">
+            <button class="button4" onclick="goToPage()">Surprise page သို့သွားရန်</button>
+        </div>
+    </section>
+
+
+    <script>
+        function goToPage() {
+    window.location.href = 'reply.html';
+}
+    </script>
+</body>
+</html>
